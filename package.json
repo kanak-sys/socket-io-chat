@@ -1,0 +1,49 @@
+{
+  "name": "socket-io-chat",
+  "version": "1.0.0",
+  "description": "Production-ready real-time chat application with Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "render-build": "echo 'Build completed'",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.html\" \"**/*.css\""
+  },
+  "keywords": [
+    "socket.io",
+    "real-time",
+    "chat",
+    "nodejs",
+    "express",
+    "websocket"
+  ],
+  "author": "Kanak",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanak-sys/socket-io-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kanak-sys/socket-io-chat/issues"
+  },
+  "homepage": "https://github.com/kanak-sys/socket-io-chat#readme"
+}
