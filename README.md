@@ -2,7 +2,8 @@
 
 A production-ready real-time chat application built with Node.js, Express, and Socket.IO. Features modern UI, dark mode, typing indicators, and user presence tracking.
 
-![SocketChat Screenshot](https://via.placeholder.com/800x450/4361ee/ffffff?text=SocketChat+Preview)
+![SocketChat Screenshot](<img width="1276" height="579" alt="{A1648306-61E7-4C74-9208-76D8DA0C8101}" src="https://github.com/user-attachments/assets/d8122975-5e07-46e5-8884-69ac4739062b" />
+)
 
 ## ✨ Features
 
